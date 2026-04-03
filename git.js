@@ -31,3 +31,11 @@ if (age >= 18) {
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+
+
+//function
+function greet(name) {
+    console.log("Hello " + name);
+}
+
+greet("Anshul");
