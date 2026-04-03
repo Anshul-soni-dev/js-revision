@@ -16,3 +16,12 @@ console.log(age);
 console.log(isPlaced);
 console.log(project);
 console.log(salary);
+
+//ifelse 
+let age = 16;
+
+if (age >= 18) {
+    console.log("Adult");
+} else {
+    console.log("Minor");
+}
