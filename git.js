@@ -6,13 +6,13 @@ function sum(a,b){
 
 
 let name = "Anshul";   // string
-let age = 22;          // number
+let aged = 22;          // number
 let isPlaced = false;  // boolean
 let project = null;    // no project yet
 let salary;            // undefined
 
 console.log(name);
-console.log(age);
+console.log(aged);
 console.log(isPlaced);
 console.log(project);
 console.log(salary);
@@ -24,4 +24,10 @@ if (age >= 18) {
     console.log("Adult");
 } else {
     console.log("Minor");
+}
+
+//loop
+
+for (let i = 0; i < 5; i++) {
+    console.log(i);
 }
